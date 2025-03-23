@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+body{
+    background-color: rgb(239, 238, 239);
+}
+nav{
+  background: rgb(35, 35, 35);
+}
+nav img{
+  width: 180px;
+  margin-top: -10px;
+}
+nav button{
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgb(89, 0, 255);
+  border: none;
+  border: rgb(89, 0, 255) solid 1px;
+  color: white;
+  transition: 1000ms;
+}
+nav button:hover{
+  background-color: white;
+  border: rgb(89, 0, 255) solid 1px;
+  color: black;
+  transition: 1000ms;
+}
+.baslik{
+  position: relative;
+  top: 100px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(89, 0, 255);
+}
+.back{
+    position: relative;
+    top: 100px;
+    background-color: white;
+    padding: 50px 10px 10px 10px;
+    border-radius: 15px;
+}
+.kapsa{
+  position: relative;
+  left: 20%;
+}
+.ad input{
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+  font-family: 'Quicksand', sans-serif;
+}
+.ad label{
+  margin-bottom: 3px;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+}
+.il select{
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+}
+.adres label{
+  margin-bottom: 3px;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+}
+.adres textarea{
+  padding: 5px;
+  width: 96%;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+  font-family: 'Quicksand', sans-serif;
+}
+.iletisim label{
+  margin-bottom: 3px;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+}
+.iletisim input{
+  font-family: 'Quicksand', sans-serif;
+  width: 94%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+}
+.okul-no input{
+  font-family: 'Quicksand', sans-serif;
+  width: 96%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+}
+.cv-isim input{
+  font-family: 'Quicksand', sans-serif;
+  width: 96%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+}
+.okul select{
+  font-family: 'Quicksand', sans-serif;
+  width: 96%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+}
+
+.dil textarea{
+  padding: 5px;
+  width: 96%;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline-color:rgb(89, 0, 255);
+  font-family: 'Quicksand', sans-serif;
+}
+
+#checkboxes{
+  width: 345px;
+  position: absolute;
+  max-height: 160px;
+  z-index: 99;
+}
+.multiselect {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: none;
+    cursor: pointer;
+    background-color: var(--bs-form-control-bg);
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 96%;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 0.600rem 0.75rem;
+    border: 1px solid gray;
+    outline-color:rgb(89, 0, 255);
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+  }
+  
+  #checkboxes {
+    display: none;
+    background-color: white;
+    padding: 5px;
+    overflow-y: scroll;
+  }
+  
+  #checkboxes label {
+    display: block;
+    padding: 5px;
+    padding-left: 35px;
+  }
+  
+  #checkboxes label:hover {
+    color: rgb(5, 5, 5);
+  }
+/* The iner */
+.iner {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+  
+  /* Hide the browser's default checkbox */
+  .iner input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .iner:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .iner input:checked ~ .checkmark {
+    background-color: rgb(89, 0, 255);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .iner input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .iner .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .olustur button{
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(89, 0, 255);
+    color: white;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 15%;
+  }
+  @media only screen and (max-width: 991px) {
+    .box{
+      position: relative;
+      left: 12%;
+    }
+    .olustur button{
+      position: relative;
+      left: 12%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .box{
+      position: relative;
+      left: 0%;
+    }
+    .olustur button{
+      position: relative;
+      left: 8%;
+    }
+  }
+  .box{
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    right:10%;
+    height: 200%;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+  }
+  .box a{
+    text-decoration: none;
+  }
+  .sec{
+    font-weight: 900;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    background-color: transparent;
+    padding: 3px;
+    color: black;
+    border-radius: 5px;
+    transition: 300ms;
+    margin-bottom: 5px;
+  }
+  .sec:hover{
+    background-color: rgb(89, 0, 255);
+    color: white;
+    transition: 300ms;
+  }
+  .bell{
+    margin: 10px 10px 10px 30px;
+  }
+  .bell .fa-bell{
+    font-size: 20px;
+  }
+  .bildirim{
+    color: yellow;
+  }
+  .fa-circle{
+    font-size: 10px;
+    color: red;
+    margin-left: -8px;
+  }

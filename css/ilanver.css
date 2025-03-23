@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+body{
+    background-color: rgb(239, 238, 239);
+    overflow-x: hidden;
+}
+nav{
+  background: rgb(35, 35, 35);
+}
+nav img{
+  width: 180px;
+  margin-top: -10px;
+}
+nav button{
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgb(89, 0, 255);
+  border: none;
+  border: rgb(89, 0, 255) solid 1px;
+  color: white;
+  transition: 1000ms;
+}
+nav button:hover{
+  background-color: white;
+  border: rgb(89, 0, 255) solid 1px;
+  color: black;
+  transition: 1000ms;
+}
+.box{
+  background-color: white;
+  position: absolute;
+  top: 80%;
+  right:10%;
+  height: 200%;
+  width: 12%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+}
+.box a{
+  text-decoration: none;
+}
+.sec{
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
+  background-color: transparent;
+  padding: 3px;
+  color: black;
+  border-radius: 5px;
+  transition: 300ms;
+  margin-bottom: 5px;
+}
+.sec:hover{
+  background-color: rgb(89, 0, 255);
+  color: white;
+  transition: 300ms;
+}
+
+.back{
+  position: relative;
+  top: 100px;
+  background-color: white;
+  border-radius: 15px;
+}
+.logo img{
+width: 30%;
+border-radius: 5px;
+}
+.logo label{
+margin: 10px;
+font-size: 15px;
+font-weight: 900;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.file-input-wrapper {
+position: relative;
+overflow: hidden;
+}
+
+.custom-file-button {
+padding: 8px;
+background-color: rgb(89, 0, 255);
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+z-index: 99;
+}
+
+.file-input {
+
+opacity: 0;
+width: 30%;
+height: 50px;
+cursor: pointer;
+position: relative;
+top: -50px;
+}
+.firma-isim{
+margin-top: 3rem;
+}
+.firma-isim label{
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 900;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.firma-isim input{
+width: 100%;
+height: 40px;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgb(89, 0, 255);
+outline-color: rgb(89, 0, 255);
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.firma-bolum{
+margin-top: 3rem;
+}
+.firma-bolum label{
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 900;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.firma-bolum select{
+width: 100%;
+height: 40px;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgb(89, 0, 255);
+outline-color: rgb(89, 0, 255);
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+
+.firma-hakkinda{
+margin-top: 3rem;
+}
+.firma-hakkinda label{
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 900;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.firma-hakkinda textarea{
+width: 100%;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgb(89, 0, 255);
+outline-color: rgb(89, 0, 255);
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+
+
+
+.firma-kriter{
+margin-top: 3rem;
+}
+.firma-kriter label{
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 900;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.firma-kriter textarea{
+width: 100%;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgb(89, 0, 255);
+outline-color: rgb(89, 0, 255);
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+
+
+.firma-adres{
+margin-top: 3rem;
+}
+.firma-adres label{
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 900;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.firma-adres select{
+width: 100%;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgb(89, 0, 255);
+outline-color: rgb(89, 0, 255);
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+}
+.firma-adres textarea{
+width: 100%;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgb(89, 0, 255);
+outline-color: rgb(89, 0, 255);
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+}
+.firma-adres a{
+color: rgb(89, 0, 255);
+font-size: 14px;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.iletisim{
+margin-top: 3rem;
+}
+.iletisim label{
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 900;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.iletisim input{
+width: 100%;
+height: 40px;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgb(89, 0, 255);
+outline-color: rgb(89, 0, 255);
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+}
+.olustur button{
+  background-color:rgb(89, 0, 255);
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+text-transform: capitalize;
+border: none;
+border-radius: 10px;
+margin-top: 50px;
+}
+.bell{
+  margin: 10px;
+}
+.fa-circle{
+  font-size: 10px;
+  color: red;
+  margin-left: -8px;
+}
+nav .bell .btn-secondary{
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 208, 0);
+  width: 10%;
+}
+.bell .dropdown-menu{
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+.bell .dropdown-item{
+color: black;
+font-family: 'Quicksand', sans-serif;
+font-weight: 900;
+}
+.bell .dropdown-item:hover{
+  color: black;
+}
+
+.login .dropdown-menu{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+.login .dropdown-item{
+color: rgb(0, 0, 0);
+font-family: 'Quicksand', sans-serif;
+font-weight: 900;
+}
+.login .dropdown-item:hover{
+  color: white;
+  background-color: rgb(89, 0, 255);
+}
+nav .login .btn-secondary{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  background-color: rgb(89, 0, 255);
+  border: none;
+  border: rgb(89, 0, 255) solid 1px;
+  color: rgb(255, 255, 255);
+  transition: 1000ms;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+nav .login hr{
+  color: black;
+}

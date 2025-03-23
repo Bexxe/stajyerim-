@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+body{
+    background-color: rgb(239, 238, 239);
+}
+nav{
+  background: rgb(35, 35, 35);
+}
+nav img{
+  width: 180px;
+  margin-top: -10px;
+}
+nav button{
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgb(89, 0, 255);
+  border: none;
+  border: rgb(89, 0, 255) solid 1px;
+  color: white;
+  transition: 1000ms;
+}
+nav button:hover{
+  background-color: white;
+  border: rgb(89, 0, 255) solid 1px;
+  color: black;
+  transition: 1000ms;
+}
+.bulunamadi{
+  position: absolute;
+  top: 45%;
+}
+.bulunamadi i{
+  position:relative;
+  right: 8%;
+  animation: rotate 3s infinite;
+  color: rgb(89, 0, 255);
+  font-size: 25px;
+}
+.bulunamadi .text{
+  color: rgb(89, 0, 255);
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    right: 8%;
+  }
+  50% {
+    transform: rotate(360deg);
+    right: 0%;
+  }
+    50% {
+    transform: rotate(360deg);
+    right: -8%;
+  }
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+body{
+    background-color: rgb(239, 238, 239);
+}
+nav{
+  background: rgb(35, 35, 35);
+}
+nav img{
+  width: 180px;
+  margin-top: -10px;
+}
+nav button{
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgb(89, 0, 255);
+  border: none;
+  border: rgb(89, 0, 255) solid 1px;
+  color: white;
+  transition: 1000ms;
+}
+nav button:hover{
+  background-color: white;
+  border: rgb(89, 0, 255) solid 1px;
+  color: black;
+  transition: 1000ms;
+}
+.back{
+  position: relative;
+  top: 200px;
+}
+.back a{
+  text-decoration: none;
+  color: black;
+}
+.kutu{
+  background-color: white;
+  border-radius: 10px;
+}
+.profil{
+  text-align: center;
+  border-radius: 500px;
+  padding: 14px;
+  font-size: 40px;
+  color:rgb(89, 0, 255) ;
+}
+.isim{
+  font-size: 19px;
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
+}
+.okul-no{
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
+}
+.mail{
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+}
+.baslik{
+  position: relative;
+  top: 100px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
+}
+.cop button{
+  background-color: transparent;
+  color:rgb(255, 0, 0);
+  border: none;
+  outline: none;
+}
+.cop i{
+    font-size: 25px;
+}
+.box{
+  background-color: white;
+  position: absolute;
+  top: 80%;
+  right:10%;
+  height: 200%;
+  width: 12%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+}
+.box a{
+  text-decoration: none;
+}
+.sec{
+  font-weight: 900;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
+  background-color: transparent;
+  padding: 3px;
+  color: black;
+  border-radius: 5px;
+  transition: 300ms;
+  margin-bottom: 5px;
+}
+.sec:hover{
+  background-color: rgb(89, 0, 255);
+  color: white;
+  transition: 300ms;
+}
+.bell{
+  margin: 10px 10px 10px 30px;
+}
+.bell .fa-bell{
+  font-size: 20px;
+}
+.bildirim{
+  color: yellow;
+}
+.fa-circle{
+  font-size: 10px;
+  color: red;
+  margin-left: -8px;
+}

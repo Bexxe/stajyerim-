@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+  nav{
+    background: rgb(35, 35, 35);
+  }
+  nav img{
+    width: 180px;
+    margin-top: -10px;
+  }
+  section{
+    background: rgb(35, 35, 35);
+    height: 400px;
+  }
+  .custom-shape-divider-top-1677618414 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1677618414 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 182px;
+}
+
+.custom-shape-divider-top-1677618414 .shape-fill {
+    fill: #242323;
+}
+.search-back{
+    margin-top: 150px;
+    background-color: rgb(229, 226, 232);
+    border-radius: 20px;
+}
+#checkboxes{
+  width: 345px;
+  border-radius: 5px;
+  position: absolute;
+  max-height: 160px;
+  z-index: 99;
+}
+.multiselect {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.5;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--bs-form-control-bg);
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 0.600rem 0.75rem;
+    border: rgb(89, 0, 255) solid 1px;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+  }
+  
+  #checkboxes {
+    display: none;
+    background-color: white;
+    padding: 5px;
+    overflow-y: scroll;
+  }
+  
+  #checkboxes label {
+    display: block;
+    padding: 5px;
+    padding-left: 35px;
+  }
+  
+  #checkboxes label:hover {
+    color: rgb(5, 5, 5);
+  }
+/* The iner */
+.iner {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+  
+  /* Hide the browser's default checkbox */
+  .iner input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .iner:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .iner input:checked ~ .checkmark {
+    background-color: rgb(89, 0, 255);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .iner input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .iner .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+
+
+  #bolumbox{
+    width: 345px;
+    border-radius: 5px;
+    position: absolute;
+    max-height: 160px;
+    z-index: 99;
+  }
+  .multibolum {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.5;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--bs-form-control-bg);
+    }
+    
+    .selectbolum {
+      position: relative;
+    }
+    
+    .selectbolum select {
+      width: 100%;
+      font-weight: 600;
+      font-family: 'Dosis', sans-serif;
+      border: none;
+      border-radius: 20px;
+      padding: 0.600rem 0.75rem;
+      border: rgb(89, 0, 255) solid 1px;
+    }
+    
+    .bolumSelect {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      
+    }
+    
+    #bolumbox {
+      display: none;
+      background-color: white;
+      padding: 5px;
+      overflow-y: scroll;
+      
+    }
+    
+    #bolumbox label {
+      display: block;
+      padding: 5px;
+      padding-left: 35px;
+    }
+    
+    #bolumbox label:hover {
+      color: rgb(5, 5, 5);
+    }
+  /* The iner */
+  .bolum {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      font-size: 15px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      
+    }
+    
+    /* Hide the browser's default checkbox */
+    .bolum input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    
+    /* Create a custom checkbox */
+    .checkmarkk {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      border-radius: 5px;
+      background-color: #eee;
+    }
+    
+    /* On mouse-over, add a grey background color */
+    .bolum:hover input ~ .checkmarkk {
+      background-color: #ccc;
+    }
+    
+    /* When the checkbox is checked, add a blue background */
+    .bolum input:checked ~ .checkmarkk {
+      background-color: rgb(89, 0, 255);
+    }
+    
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmarkk:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    
+    /* Show the checkmark when checked */
+    .bolum input:checked ~ .checkmarkk:after {
+      display: block;
+    }
+    
+    /* Style the checkmark/indicator */
+    .bolum .checkmarkk:after {
+      left: 9px;
+      top: 5px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    .yazi{
+      text-transform: capitalize;
+    }
+  section input[type="text"]{
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    border: none;
+    border: rgb(89, 0, 255) solid 1px;
+  }
+  section button{
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(89, 0, 255);
+    border: none;
+    border: rgb(89, 0, 255) solid 1px;
+    transition: 1000ms;
+    color: white;
+  }
+  section button:hover{
+    background-color: white;
+    border: rgb(89, 0, 255) solid 1px;
+    color: black;
+    transition: 1000ms;
+  }
+  nav .btn-login{
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(89, 0, 255);
+    border: none;
+    border: rgb(89, 0, 255) solid 1px;
+    color: white;
+    transition: 1000ms;
+  }
+  nav .btn-login:hover{
+    background-color: white;
+    border: rgb(89, 0, 255) solid 1px;
+    color: black;
+    transition: 1000ms;
+  }
+  nav .btn-ekle{
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(89, 0, 255);
+    border: none;
+    border: rgb(89, 0, 255) solid 1px;
+    color: white;
+    transition: 1000ms;
+  }
+  nav .btn-ekle:hover{
+    background-color: white;
+    border: rgb(89, 0, 255) solid 1px;
+    color: black;
+    transition: 1000ms;
+  }
+  .btn-sm{
+    display: none;
+  }
+  .btn-sm .btn{
+    background-color: #bbbbbb;
+    color: white;
+  }
+  .ilanlar{
+    margin-top: 5rem;
+  }
+  .ilanlar a{
+    text-decoration: none;
+  }
+  .ilanlar .btn{
+    background-color: #bbbbbb;
+    color: white;
+    margin-top: 150px;
+  }
+  .suggested{
+    margin-top: 100px;
+    border-bottom: 1px solid rgb(89, 0, 255);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(89, 0, 255);
+    text-transform:capitalize;
+  }
+  footer{
+    background-color: rgb(46, 46, 46);
+    height: 500px;
+  }
+  .baslik{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+  }
+  .baslik a{
+    text-decoration: none;
+    color: white;transition: 500ms;
+    font-size: 30px;
+  }
+  .baslik a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(89, 0, 255);
+    padding: 10px 15px 10px 15px;
+    transition: 500ms;
+    border-radius: 5px;
+  }
+  .nav-left{
+    background-color: black;
+    margin-top: 10px;
+  }
+  .carousel-inner a{
+     text-decoration: none;
+  }
+  .card{
+    border-radius: 5px;
+  }
+  .card img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .card-title{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .card-text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .konum-text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  @media only screen and (max-width: 768px) {
+    .ilanlar{
+      margin-top: 0rem;
+    }
+    .btn-sm{
+      display: inline;
+    }
+    .ilanlar .btn{
+      display: none;
+    }
+    footer{
+      background-color: rgb(46, 46, 46);
+      height: 100%;
+    }
+    .card img{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .card{
+      position: relative;
+      left: 25%;
+      width: 100%;
+    }
+  }
+  .bell{
+    margin: 10px;
+  }
+  .fa-circle{
+    font-size: 10px;
+    color: red;
+    margin-top: -20px;
+    margin-left: 10px;
+    position: absolute;
+  }
+  nav .bell .btn-secondary{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 208, 0);
+    width: 10%;
+  }
+  .bell .dropdown-menu{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+  }
+  .bell .dropdown-item{
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  }
+  .bell .dropdown-item:hover{
+    color: black;
+  }
+
+  .login .dropdown-menu{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+  }
+  .login .dropdown-item{
+  color: rgb(0, 0, 0);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  }
+  .login .dropdown-item:hover{
+    color: white;
+    background-color: rgb(89, 0, 255);
+  }
+  nav .login .btn-secondary{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    background-color: rgb(89, 0, 255);
+    border: none;
+    border: rgb(89, 0, 255) solid 1px;
+    color: rgb(255, 255, 255);
+    transition: 1000ms;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+ .btn-secondary-opak{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    opacity: 0;
+    margin-right: 50px;
+  }
+  .box{
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    right:10%;
+    height: 200%;
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+  }
+  .box a{
+    text-decoration: none;
+  }
+  .sec{
+    font-weight: 900;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    background-color: transparent;
+    padding: 3px;
+    color: black;
+    border-radius: 5px;
+    transition: 300ms;
+    margin-bottom: 5px;
+  }
+  .sec:hover{
+    background-color: rgb(89, 0, 255);
+    color: white;
+    transition: 300ms;
+  }
+
+  .bell{
+    margin: 10px 10px 10px 30px;
+  }
+  .bell .fa-bell{
+    font-size: 20px;
+  }
+  .bildirim{
+    color: yellow;
+  }
+  .fa-circle{
+    font-size: 10px;
+    color: red;
+    margin-left: -8px;
+  }
